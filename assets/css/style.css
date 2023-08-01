@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat+Alternates&family=Montserrat:wght@200&family=Roboto+Condensed&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+.video-container{
+ overflow: hidden;
+
+ width: 100%;
+ height: 100vh;
+
+}
+.video-container video{
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+.color-overlay{
+   /* transition: 4s ease-in-out; */
+    background-color: #000;
+    opacity: 0.7;
+}
+header{
+    position: absolute;
+    top: 10%;
+    background-color: transparent;
+}
+/* header>nav>img{
+    height: 68px;
+    margin-left: 10px;
+} */
+header>nav>ul{
+    list-style-type: none;
+    float: right;
+    margin-left: 260px;
+} 
+header>nav>ul>li{
+    display: inline-block;
+    padding: 20px;
+    margin: 16px;
+}
+header>nav>ul>li>a{
+    color: lightcyan;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+header>nav>ul>li>a:hover{
+    text-decoration: underline;
+}
+.container>h1{
+    position: absolute;
+    top:50%;
+    font-size: 50px;
+    left:12%;
+    color: pink;
+   
+}
+.container>h1:hover{
+ 
+    color: palevioletred;
+
+  
+}
+.btn-1{
+    position: absolute;
+    top:76%;
+    left: 14%;
+    color: #dc3748;
+    padding: 20px;
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 18px;
+    font-size: 30px;
+}
+.btn-1:hover{
+    background-color: transparent;
+    color: blue;
+    outline: 2px solid lightblue;
+
+}
+.explore:hover{
+   color: yellow
+}
+.bestiary:hover{
+    color: red;
+}
+.gallery:hover{
+    color: teal;
+}
+.about:hover{
+    color:chocolate
+}
+.contact:hover{
+    color: blueviolet
+}
+#gallerywrapper {
+    width:640px;
+    height:450px;
+    /* margin:0 auto; */
+    width: 100%;
+
+    /* position:relative; */
+    font-family:verdana, arial, sans-serif;
+} 
+
+#gallerywrapper #gallery {
+    position:absolute;
+    left:0;
+    top:0;
+    height:450px;
+    width:100%;
+    
+    overflow:hidden;
+    text-align:center;
+} 
+
+#gallerywrapper #gallery div {
+    width:640px; height:900px; 
+   
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    
+} 
+
+#gallerywrapper #gallery div img {
+    clear:both; 
+    display:block; 
+    margin:0 auto; 
+    width: 100%;
+    border:0;
+} 
+#gallery .previous{ 
+    display:inline;
+    float:left;
+    margin-left:0px;
+    text-decoration:none;
+    font-size: x-large;
+    font-weight: bolder;
+    color: blue;
+
+} 
+#gallery .next{ 
+    display:inline;
+    float:right;
+    margin-right:0px;
+    text-decoration:none;
+    font-size: x-large;
+    font-weight: bolder;
+    color: blue;
+}
+.bestiary-container>.image-container{
+    width: 100%;
+    height:80vh;
+    object-fit: cover;
+}
+footer{
+    margin-top: 120px;
+}
+.footer-icon{
+    text-align: center;
+    color: #fff;
+}
+.footer-icon>p{
+    color: grey;
+    font-size: 20px;
+    margin-left: 232px;
+}
+.footer-icon>b>[class*="fa-"]{
+    background-color: #dc3748;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+    transition: 1s;
+}
+.footer-icon>b>[class*="fa-"]:hover{
+    transform: rotate(360deg);
+}
+.img-container>img{
+    height: 400px;
+   width: 80%;
+   background-size: cover;
+   border: 2px solid black;
+}
+p{
+    width: 70%;
+}
+
+.clickme1{
+    position: absolute;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 20px;
+    width: 120px;
+    font-size: 18px;
+    border:none;
+    top: 49%;
+    right: 91%;
+
+}
+.clickme1:hover{
+    background-color: transparent;
+    color: blue;
+    outline: 2px solid blue;
+}
+.clickme2{
+    position: absolute;
+top: 49%;
+left: 90.8%;
+padding: 10px;
+    background-color: blue;
+    border-radius: 20px;
+    width: 120px;
+    font-size: 18px;
+    border:none;
+}
+.clickme2:hover{
+    background-color: transparent;
+    color: blue;
+    outline:  2px solid blue;
+}
+.aboutUs{
+    background: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)) , no-repeat center;
+    background-size: 100%;
+    background-attachment: fixed;
+    text-align: center;
+}
+.aboutUs>.item{
+flex: 1;
+    padding: 20px;
+    line-height: 2;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+}
+.btn{
+    padding: 15px 30px;
+    background-color: transparent;
+    border: 1px solid teal;
+    transition: 1s;
+    margin: 30px;
+}
+.btn:hover{
+    background-color: teal;
+    color: white;
+}
+.title{font-size: 30px; margin: 30px; text-align: center;}
